@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<title>Login</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+body,h1 {font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+.bgimg {
+
+    background-image: url('https://wallpapercave.com/wp/xG2PMym.jpg');
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+div.pos_abs
+{
+position:absolute;
+right:35%;
+top:60%
+}
+
+</style>
+<body>
+
+<div class="bgimg w3-display-container w3-text-white">
+  <div class="w3-display-topleft w3-padding-large w3-xlarge">
+
+  </div>
+  <div class='pos_abs'>
+    <!--<h1 class="w3-jumbo w3-animate-top w3-left">Hoop Tavern</h1>-->
+      <font size="6" color="black" style="font-family:verdana">NBA Records for 2017 Season</font>
+    <hr class="w3-border-grey" style="margin:auto;width:40%">
+
+<form method="POST" action="/validcheck">
+
+<p class="w3-large w3-center"><label  for="username"></label><input type="text" id="username" name="username" placeholder="UNI" > </p>
+
+<p class="w3-large w3-center"><label  for="password"> </label><input type="password" id= "password" name = "password" placeholder="Password"></p>
+
+<p class="w3-large w3-center"><input  type="submit" value="Login"></p>
+
+<p class="w3-large w3-center">{{ msg }}</p>
+
+</form>
+  </div>
+   <div class="w3-display-bottomright w3-padding-large w3-text-white">
+    <font size="3" color="black" style="font-family:verdana">Powered by Xin Wang & Xinjie Wen</font>
+</div>
+</div>
+
+</body>
+</html>
+
+

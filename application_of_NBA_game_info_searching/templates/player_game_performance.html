@@ -1,0 +1,110 @@
+{% extends "base.html" %}
+{% block title %} - player performance - {% endblock %}
+{% block page_content %}
+
+<style>
+
+div.pos_abs_search
+{
+position:absolute;
+left:10%;
+top:15%
+}
+
+div.table
+{
+position:absolute;
+left:10%;
+top:35%
+}
+
+    div.pos_abs_bottom
+{
+position:absolute;
+left:75%;
+bottom:5%
+}
+
+a.pos_abs_href1
+{
+position:absolute;
+left:10%;
+bottom:30%
+}
+a.pos_abs_href2
+{
+position:absolute;
+left:10%;
+bottom:25%
+}
+
+</style>
+
+<body background="https://wallpapercave.com/wp/P1bm72P.jpg">
+
+
+<div class = 'pos_abs_search'>
+
+
+    <form method="GET" action="/game_search">
+        <font size="3" color = 'white'>Search Player: </font>
+        <select name = "player_name" style="width:150px">
+        {% for p in player_names %}
+        <option value="{{ p }}">{{ p }}</option>
+        {% endfor %}
+        </select>
+        <input type="submit" value="Search" class="btn btn-primary">
+        </form>
+
+    <form method="GET" action="/performance">
+        <font size="3" color="white" id="1"> Name : {{ player_name }} </font>
+        <br>
+        <font size="3" color = 'white'>Search Game: </font>
+        <select name ="game_id" style="width:150px">
+        {% for p in game_ids %}
+        <option value="{{ p }}">{{ p }}</option>
+        {% endfor %}
+        </select>
+        <input type="submit" value="Search" class="btn btn-primary">
+
+        </form>
+
+    <!--<font size="3" color="white" id="1"> Name : {{ player_name }} </font>-->
+    <!---->
+    <font size="3" color="white"> Game Id: {{ game_id }} </font>
+
+</div>
+
+   <div class="table">
+       <font size="6" color="white">Player Performance</font>
+
+       <table border="5" >
+            <tr>
+                <th width="150"> <font color="white">Name</font> </th>
+                <th width="150"> <font color="white">Game Id</font> </th>
+                <th width="100"> <font color="white">Goal</font> </th>
+                <th width="100"> <font color="white">3PA</font> </th>
+                <th width="100"> <font color="white">AST</font> </th>
+                <th width="100"> <font color="white">BLK</font> </th>
+            </tr>
+             {% for n in data %}
+            <tr>
+                <td width="150"><font color="white"> {{ n[0] }} </font></td>
+                <td width="150"><font color="white"> {{ n[1] }} </font></td>
+                <td width="100"><font color="white"> {{ n[2] }} </font></td>
+                <td width="100"><font color="white"> {{ n[3] }} </font></td>
+                <td width="100"><font color="white"> {{ n[4] }} </font></td>
+                <td width="100"><font color="white"> {{ n[5] }} </font></td>
+            </tr>
+           {% endfor %}
+        </table>
+
+    </div>
+</body>
+
+<div class="pos_abs_bottom">
+    <font size="3" color="orange" style="font-family:verdana">Powered by Xin Wang & Xinjie Wen</font>
+</div>
+
+{% endblock %}
+

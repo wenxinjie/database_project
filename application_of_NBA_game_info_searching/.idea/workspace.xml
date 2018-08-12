@@ -1,0 +1,993 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="dcc24a7e-b1f6-4474-aa13-d2040e2da52f" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/webserver$server.coverage" NAME="server Coverage Results" MODIFIED="1521835617734" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="server.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/server.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="111">
+              <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+              <folding>
+                <element signature="e#268#277#0" expanded="true" />
+                <marker date="1522083587395" expanded="true" signature="1554:1614" ph="CREATE TABLE... IF" />
+                <marker date="1522083587395" expanded="true" signature="1638:1719" ph="INSERT INTO test... " />
+                <marker date="1522083587395" expanded="true" signature="3826:3854" ph="SELECT first... coach" />
+                <marker date="1522083587395" expanded="true" signature="11765:11787" ph="SELECT team_... coach" />
+                <marker date="1522083587395" expanded="true" signature="11765:11791" ph="SELECT team_... team" />
+                <marker date="1522083587395" expanded="true" signature="12420:12545" ph="SELECT * fro... coach" />
+                <marker date="1522083587395" expanded="true" signature="13959:13998" ph="SELECT first... player" />
+                <marker date="1522083587395" expanded="true" signature="13959:14050" ph="SELECT first... player" />
+                <marker date="1522083587395" expanded="true" signature="14737:14751" ph="SELECT game_... game" />
+                <marker date="1522083587395" expanded="true" signature="14737:14770" ph="SELECT * FRO... record" />
+                <marker date="1522083587395" expanded="true" signature="14737:14810" ph="SELECT * FRO... record" />
+                <marker date="1522083587395" expanded="true" signature="14737:14823" ph="SELECT * FRO... record" />
+                <marker date="1522083587395" expanded="true" signature="14737:14834" ph="SELECT * FRO... record" />
+                <marker date="1522083587395" expanded="true" signature="14737:14860" ph="SELECT * FRO... record" />
+                <marker date="1522083587395" expanded="true" signature="14737:14861" ph="SELECT * FRO... record" />
+                <marker date="1522083587395" expanded="true" signature="15521:15626" ph="SELECT * FRO... record" />
+                <marker date="1522083587395" expanded="true" signature="15521:15627" ph="SELECT * FRO... record" />
+                <marker date="1522083587395" expanded="true" signature="15521:15644" ph="SELECT * FRO... record" />
+                <marker date="1522083587395" expanded="true" signature="15521:15645" ph="SELECT * FRO... record" />
+                <marker date="1522083587395" expanded="true" signature="15521:15671" ph="SELECT * FRO... record" />
+                <marker date="1522083587395" expanded="true" signature="15521:15691" ph="SELECT * FRO... record" />
+                <marker date="1522083587395" expanded="true" signature="15521:15693" ph="SELECT * FRO... record" />
+                <marker date="1522083587395" expanded="true" signature="15521:15695" ph="SELECT * FRO... record" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="24" column="32" lean-forward="false" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base_update.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/base_update.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="468">
+              <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dashboard.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/dashboard.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="339">
+              <caret line="54" column="7" lean-forward="true" selection-start-line="54" selection-start-column="7" selection-end-line="54" selection-end-column="7" />
+              <folding>
+                <element signature="n#style#0;n#input#0;n#p#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#p#0;n#form#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#p#0;n#form#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="666">
+              <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="18">
+              <caret line="1" column="20" lean-forward="false" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="20" />
+              <folding>
+                <element signature="n#style#0;n#font#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="team_performance.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/team_performance.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="18">
+              <caret line="1" column="36" lean-forward="false" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="update.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/update.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2592">
+              <caret line="144" column="0" lean-forward="false" selection-start-line="144" selection-start-column="0" selection-end-line="144" selection-end-column="0" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#select#0;n#div#4;n#form#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#select#0;n#div#5;n#form#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#select#0;n#div#6;n#form#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#select#0;n#div#7;n#form#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#select#0;n#div#8;n#form#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="player_game_performance.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/player_game_performance.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="589">
+              <caret line="107" column="0" lean-forward="false" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="search_coach.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/search_coach.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1314">
+              <caret line="73" column="27" lean-forward="false" selection-start-line="73" selection-start-column="27" selection-end-line="73" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>i</find>
+      <find>login</find>
+      <find>coach</find>
+      <find>print</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/templates/coach.html" />
+        <option value="$PROJECT_DIR$/templates/search_coach_result.html" />
+        <option value="$PROJECT_DIR$/templates/search.html" />
+        <option value="$PROJECT_DIR$/templates/another.html" />
+        <option value="$PROJECT_DIR$/templates/index.html" />
+        <option value="$PROJECT_DIR$/templates/base.html" />
+        <option value="$PROJECT_DIR$/templates/login.html" />
+        <option value="$PROJECT_DIR$/templates/base_update.html" />
+        <option value="$PROJECT_DIR$/templates/player_game_performance.html" />
+        <option value="$PROJECT_DIR$/templates/playoff.html" />
+        <option value="$PROJECT_DIR$/templates/position.html" />
+        <option value="$PROJECT_DIR$/templates/preteam.html" />
+        <option value="$PROJECT_DIR$/templates/query_all.html" />
+        <option value="$PROJECT_DIR$/templates/team_performance.html" />
+        <option value="$PROJECT_DIR$/templates/update.html" />
+        <option value="$PROJECT_DIR$/templates/search_coach.html" />
+        <option value="$PROJECT_DIR$/templates/dashboard.html" />
+        <option value="$PROJECT_DIR$/server.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="790" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="webserver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webserver" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webserver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webserver" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/templates" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.server">
+    <configuration name="search_coach_result.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/webserver/templates/search_coach_result.html" />
+    <configuration name="search.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/webserver/templates/search.html" />
+    <configuration name="server" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="webserver" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/server.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Python.server" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Python.server" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dcc24a7e-b1f6-4474-aa13-d2040e2da52f" name="Default" comment="" />
+      <created>1521737305432</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1521737305432</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="790" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17668097" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18898809" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/templates/coach.html" />
+    <entry file="file://$PROJECT_DIR$/templates/another.html" />
+    <entry file="file://$PROJECT_DIR$/templates/search.html" />
+    <entry file="file://$PROJECT_DIR$/server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#268#277#0" expanded="true" />
+            <marker date="1522083587395" expanded="true" signature="1554:1614" ph="CREATE TABLE... IF" />
+            <marker date="1522083587395" expanded="true" signature="1638:1719" ph="INSERT INTO test... " />
+            <marker date="1522083587395" expanded="true" signature="3826:3854" ph="SELECT first... coach" />
+            <marker date="1522083587395" expanded="true" signature="11765:11787" ph="SELECT team_... coach" />
+            <marker date="1522083587395" expanded="true" signature="11765:11791" ph="SELECT team_... team" />
+            <marker date="1522083587395" expanded="true" signature="12420:12545" ph="SELECT * fro... coach" />
+            <marker date="1522083587395" expanded="true" signature="13959:13998" ph="SELECT first... player" />
+            <marker date="1522083587395" expanded="true" signature="13959:14050" ph="SELECT first... player" />
+            <marker date="1522083587395" expanded="true" signature="14737:14751" ph="SELECT game_... game" />
+            <marker date="1522083587395" expanded="true" signature="14737:14770" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="14737:14810" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="14737:14823" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="14737:14834" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="14737:14860" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="14737:14861" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="15521:15626" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="15521:15627" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="15521:15644" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="15521:15645" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="15521:15671" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="15521:15691" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="15521:15693" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="15521:15695" ph="SELECT * FRO... record" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/coach.html" />
+    <entry file="file://$PROJECT_DIR$/templates/search.html" />
+    <entry file="file://$PROJECT_DIR$/templates/another.html" />
+    <entry file="file://$PROJECT_DIR$/server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#268#277#0" expanded="true" />
+            <marker date="1522083587395" expanded="true" signature="1554:1614" ph="CREATE TABLE... IF" />
+            <marker date="1522083587395" expanded="true" signature="1638:1719" ph="INSERT INTO test... " />
+            <marker date="1522083587395" expanded="true" signature="3826:3854" ph="SELECT first... coach" />
+            <marker date="1522083587395" expanded="true" signature="11765:11787" ph="SELECT team_... coach" />
+            <marker date="1522083587395" expanded="true" signature="11765:11791" ph="SELECT team_... team" />
+            <marker date="1522083587395" expanded="true" signature="12420:12545" ph="SELECT * fro... coach" />
+            <marker date="1522083587395" expanded="true" signature="13959:13998" ph="SELECT first... player" />
+            <marker date="1522083587395" expanded="true" signature="13959:14050" ph="SELECT first... player" />
+            <marker date="1522083587395" expanded="true" signature="14737:14751" ph="SELECT game_... game" />
+            <marker date="1522083587395" expanded="true" signature="14737:14770" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="14737:14810" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="14737:14823" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="14737:14834" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="14737:14860" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="14737:14861" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="15521:15626" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="15521:15627" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="15521:15644" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="15521:15645" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="15521:15671" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="15521:15691" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="15521:15693" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="15521:15695" ph="SELECT * FRO... record" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="41" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/search.html" />
+    <entry file="file://$PROJECT_DIR$/server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2055">
+          <caret line="140" column="13" lean-forward="false" selection-start-line="140" selection-start-column="13" selection-end-line="140" selection-end-column="13" />
+          <folding>
+            <element signature="e#268#277#0" expanded="true" />
+            <marker date="1522083587395" expanded="true" signature="1554:1614" ph="CREATE TABLE... IF" />
+            <marker date="1522083587395" expanded="true" signature="1638:1719" ph="INSERT INTO test... " />
+            <marker date="1522083587395" expanded="true" signature="3826:3854" ph="SELECT first... coach" />
+            <marker date="1522083587395" expanded="true" signature="11765:11787" ph="SELECT team_... coach" />
+            <marker date="1522083587395" expanded="true" signature="11765:11791" ph="SELECT team_... team" />
+            <marker date="1522083587395" expanded="true" signature="12420:12545" ph="SELECT * fro... coach" />
+            <marker date="1522083587395" expanded="true" signature="13959:13998" ph="SELECT first... player" />
+            <marker date="1522083587395" expanded="true" signature="13959:14050" ph="SELECT first... player" />
+            <marker date="1522083587395" expanded="true" signature="14737:14751" ph="SELECT game_... game" />
+            <marker date="1522083587395" expanded="true" signature="14737:14770" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="14737:14810" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="14737:14823" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="14737:14834" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="14737:14860" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="14737:14861" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="15521:15626" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="15521:15627" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="15521:15644" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="15521:15645" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="15521:15671" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="15521:15691" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="15521:15693" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="15521:15695" ph="SELECT * FRO... record" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2055">
+          <caret line="140" column="13" lean-forward="false" selection-start-line="140" selection-start-column="13" selection-end-line="140" selection-end-column="13" />
+          <folding>
+            <element signature="e#268#277#0" expanded="true" />
+            <marker date="1522083587395" expanded="true" signature="1554:1614" ph="CREATE TABLE... IF" />
+            <marker date="1522083587395" expanded="true" signature="1638:1719" ph="INSERT INTO test... " />
+            <marker date="1522083587395" expanded="true" signature="3826:3854" ph="SELECT first... coach" />
+            <marker date="1522083587395" expanded="true" signature="11765:11787" ph="SELECT team_... coach" />
+            <marker date="1522083587395" expanded="true" signature="11765:11791" ph="SELECT team_... team" />
+            <marker date="1522083587395" expanded="true" signature="12420:12545" ph="SELECT * fro... coach" />
+            <marker date="1522083587395" expanded="true" signature="13959:13998" ph="SELECT first... player" />
+            <marker date="1522083587395" expanded="true" signature="13959:14050" ph="SELECT first... player" />
+            <marker date="1522083587395" expanded="true" signature="14737:14751" ph="SELECT game_... game" />
+            <marker date="1522083587395" expanded="true" signature="14737:14770" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="14737:14810" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="14737:14823" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="14737:14834" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="14737:14860" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="14737:14861" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="15521:15626" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="15521:15627" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="15521:15644" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="15521:15645" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="15521:15671" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="15521:15691" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="15521:15693" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="15521:15695" ph="SELECT * FRO... record" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2100">
+          <caret line="143" column="95" lean-forward="false" selection-start-line="143" selection-start-column="88" selection-end-line="143" selection-end-column="95" />
+          <folding>
+            <element signature="e#268#277#0" expanded="true" />
+            <marker date="1522083587395" expanded="true" signature="1554:1614" ph="CREATE TABLE... IF" />
+            <marker date="1522083587395" expanded="true" signature="1638:1719" ph="INSERT INTO test... " />
+            <marker date="1522083587395" expanded="true" signature="3826:3854" ph="SELECT first... coach" />
+            <marker date="1522083587395" expanded="true" signature="11765:11787" ph="SELECT team_... coach" />
+            <marker date="1522083587395" expanded="true" signature="11765:11791" ph="SELECT team_... team" />
+            <marker date="1522083587395" expanded="true" signature="12420:12545" ph="SELECT * fro... coach" />
+            <marker date="1522083587395" expanded="true" signature="13959:13998" ph="SELECT first... player" />
+            <marker date="1522083587395" expanded="true" signature="13959:14050" ph="SELECT first... player" />
+            <marker date="1522083587395" expanded="true" signature="14737:14751" ph="SELECT game_... game" />
+            <marker date="1522083587395" expanded="true" signature="14737:14770" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="14737:14810" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="14737:14823" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="14737:14834" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="14737:14860" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="14737:14861" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="15521:15626" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="15521:15627" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="15521:15644" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="15521:15645" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="15521:15671" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="15521:15691" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="15521:15693" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="15521:15695" ph="SELECT * FRO... record" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#268#277#0" expanded="true" />
+            <marker date="1522083587395" expanded="true" signature="1554:1614" ph="CREATE TABLE... IF" />
+            <marker date="1522083587395" expanded="true" signature="1638:1719" ph="INSERT INTO test... " />
+            <marker date="1522083587395" expanded="true" signature="3826:3854" ph="SELECT first... coach" />
+            <marker date="1522083587395" expanded="true" signature="11765:11787" ph="SELECT team_... coach" />
+            <marker date="1522083587395" expanded="true" signature="11765:11791" ph="SELECT team_... team" />
+            <marker date="1522083587395" expanded="true" signature="12420:12545" ph="SELECT * fro... coach" />
+            <marker date="1522083587395" expanded="true" signature="13959:13998" ph="SELECT first... player" />
+            <marker date="1522083587395" expanded="true" signature="13959:14050" ph="SELECT first... player" />
+            <marker date="1522083587395" expanded="true" signature="14737:14751" ph="SELECT game_... game" />
+            <marker date="1522083587395" expanded="true" signature="14737:14770" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="14737:14810" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="14737:14823" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="14737:14834" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="14737:14860" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="14737:14861" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="15521:15626" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="15521:15627" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="15521:15644" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="15521:15645" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="15521:15671" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="15521:15691" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="15521:15693" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="15521:15695" ph="SELECT * FRO... record" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1770">
+          <caret line="121" column="42" lean-forward="false" selection-start-line="121" selection-start-column="42" selection-end-line="121" selection-end-column="42" />
+          <folding>
+            <element signature="e#268#277#0" expanded="true" />
+            <marker date="1522083587395" expanded="true" signature="1554:1614" ph="CREATE TABLE... IF" />
+            <marker date="1522083587395" expanded="true" signature="1638:1719" ph="INSERT INTO test... " />
+            <marker date="1522083587395" expanded="true" signature="3826:3854" ph="SELECT first... coach" />
+            <marker date="1522083587395" expanded="true" signature="11765:11787" ph="SELECT team_... coach" />
+            <marker date="1522083587395" expanded="true" signature="11765:11791" ph="SELECT team_... team" />
+            <marker date="1522083587395" expanded="true" signature="12420:12545" ph="SELECT * fro... coach" />
+            <marker date="1522083587395" expanded="true" signature="13959:13998" ph="SELECT first... player" />
+            <marker date="1522083587395" expanded="true" signature="13959:14050" ph="SELECT first... player" />
+            <marker date="1522083587395" expanded="true" signature="14737:14751" ph="SELECT game_... game" />
+            <marker date="1522083587395" expanded="true" signature="14737:14770" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="14737:14810" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="14737:14823" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="14737:14834" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="14737:14860" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="14737:14861" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="15521:15626" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="15521:15627" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="15521:15644" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="15521:15645" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="15521:15671" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="15521:15691" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="15521:15693" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="15521:15695" ph="SELECT * FRO... record" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1770">
+          <caret line="121" column="42" lean-forward="true" selection-start-line="121" selection-start-column="42" selection-end-line="121" selection-end-column="42" />
+          <folding>
+            <element signature="e#268#277#0" expanded="true" />
+            <marker date="1522083587395" expanded="true" signature="1554:1614" ph="CREATE TABLE... IF" />
+            <marker date="1522083587395" expanded="true" signature="1638:1719" ph="INSERT INTO test... " />
+            <marker date="1522083587395" expanded="true" signature="3826:3854" ph="SELECT first... coach" />
+            <marker date="1522083587395" expanded="true" signature="11765:11787" ph="SELECT team_... coach" />
+            <marker date="1522083587395" expanded="true" signature="11765:11791" ph="SELECT team_... team" />
+            <marker date="1522083587395" expanded="true" signature="12420:12545" ph="SELECT * fro... coach" />
+            <marker date="1522083587395" expanded="true" signature="13959:13998" ph="SELECT first... player" />
+            <marker date="1522083587395" expanded="true" signature="13959:14050" ph="SELECT first... player" />
+            <marker date="1522083587395" expanded="true" signature="14737:14751" ph="SELECT game_... game" />
+            <marker date="1522083587395" expanded="true" signature="14737:14770" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="14737:14810" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="14737:14823" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="14737:14834" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="14737:14860" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="14737:14861" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="15521:15626" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="15521:15627" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="15521:15644" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="15521:15645" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="15521:15671" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="15521:15691" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="15521:15693" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="15521:15695" ph="SELECT * FRO... record" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1890">
+          <caret line="129" column="3" lean-forward="true" selection-start-line="129" selection-start-column="3" selection-end-line="129" selection-end-column="3" />
+          <folding>
+            <element signature="e#268#277#0" expanded="true" />
+            <marker date="1522083587395" expanded="true" signature="1554:1614" ph="CREATE TABLE... IF" />
+            <marker date="1522083587395" expanded="true" signature="1638:1719" ph="INSERT INTO test... " />
+            <marker date="1522083587395" expanded="true" signature="3826:3854" ph="SELECT first... coach" />
+            <marker date="1522083587395" expanded="true" signature="11765:11787" ph="SELECT team_... coach" />
+            <marker date="1522083587395" expanded="true" signature="11765:11791" ph="SELECT team_... team" />
+            <marker date="1522083587395" expanded="true" signature="12420:12545" ph="SELECT * fro... coach" />
+            <marker date="1522083587395" expanded="true" signature="13959:13998" ph="SELECT first... player" />
+            <marker date="1522083587395" expanded="true" signature="13959:14050" ph="SELECT first... player" />
+            <marker date="1522083587395" expanded="true" signature="14737:14751" ph="SELECT game_... game" />
+            <marker date="1522083587395" expanded="true" signature="14737:14770" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="14737:14810" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="14737:14823" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="14737:14834" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="14737:14860" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="14737:14861" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="15521:15626" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="15521:15627" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="15521:15644" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="15521:15645" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="15521:15671" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="15521:15691" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="15521:15693" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="15521:15695" ph="SELECT * FRO... record" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#268#277#0" expanded="true" />
+            <marker date="1522083587395" expanded="true" signature="1554:1614" ph="CREATE TABLE... IF" />
+            <marker date="1522083587395" expanded="true" signature="1638:1719" ph="INSERT INTO test... " />
+            <marker date="1522083587395" expanded="true" signature="3826:3854" ph="SELECT first... coach" />
+            <marker date="1522083587395" expanded="true" signature="11765:11787" ph="SELECT team_... coach" />
+            <marker date="1522083587395" expanded="true" signature="11765:11791" ph="SELECT team_... team" />
+            <marker date="1522083587395" expanded="true" signature="12420:12545" ph="SELECT * fro... coach" />
+            <marker date="1522083587395" expanded="true" signature="13959:13998" ph="SELECT first... player" />
+            <marker date="1522083587395" expanded="true" signature="13959:14050" ph="SELECT first... player" />
+            <marker date="1522083587395" expanded="true" signature="14737:14751" ph="SELECT game_... game" />
+            <marker date="1522083587395" expanded="true" signature="14737:14770" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="14737:14810" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="14737:14823" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="14737:14834" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="14737:14860" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="14737:14861" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="15521:15626" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="15521:15627" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="15521:15644" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="15521:15645" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="15521:15671" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="15521:15691" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="15521:15693" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="15521:15695" ph="SELECT * FRO... record" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#268#277#0" expanded="true" />
+            <marker date="1522083587395" expanded="true" signature="1554:1614" ph="CREATE TABLE... IF" />
+            <marker date="1522083587395" expanded="true" signature="1638:1719" ph="INSERT INTO test... " />
+            <marker date="1522083587395" expanded="true" signature="3826:3854" ph="SELECT first... coach" />
+            <marker date="1522083587395" expanded="true" signature="11765:11787" ph="SELECT team_... coach" />
+            <marker date="1522083587395" expanded="true" signature="11765:11791" ph="SELECT team_... team" />
+            <marker date="1522083587395" expanded="true" signature="12420:12545" ph="SELECT * fro... coach" />
+            <marker date="1522083587395" expanded="true" signature="13959:13998" ph="SELECT first... player" />
+            <marker date="1522083587395" expanded="true" signature="13959:14050" ph="SELECT first... player" />
+            <marker date="1522083587395" expanded="true" signature="14737:14751" ph="SELECT game_... game" />
+            <marker date="1522083587395" expanded="true" signature="14737:14770" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="14737:14810" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="14737:14823" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="14737:14834" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="14737:14860" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="14737:14861" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="15521:15626" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="15521:15627" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="15521:15644" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="15521:15645" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="15521:15671" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="15521:15691" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="15521:15693" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="15521:15695" ph="SELECT * FRO... record" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#268#277#0" expanded="true" />
+            <marker date="1522083587395" expanded="true" signature="1554:1614" ph="CREATE TABLE... IF" />
+            <marker date="1522083587395" expanded="true" signature="1638:1719" ph="INSERT INTO test... " />
+            <marker date="1522083587395" expanded="true" signature="3826:3854" ph="SELECT first... coach" />
+            <marker date="1522083587395" expanded="true" signature="11765:11787" ph="SELECT team_... coach" />
+            <marker date="1522083587395" expanded="true" signature="11765:11791" ph="SELECT team_... team" />
+            <marker date="1522083587395" expanded="true" signature="12420:12545" ph="SELECT * fro... coach" />
+            <marker date="1522083587395" expanded="true" signature="13959:13998" ph="SELECT first... player" />
+            <marker date="1522083587395" expanded="true" signature="13959:14050" ph="SELECT first... player" />
+            <marker date="1522083587395" expanded="true" signature="14737:14751" ph="SELECT game_... game" />
+            <marker date="1522083587395" expanded="true" signature="14737:14770" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="14737:14810" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="14737:14823" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="14737:14834" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="14737:14860" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="14737:14861" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="15521:15626" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="15521:15627" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="15521:15644" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="15521:15645" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="15521:15671" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="15521:15691" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="15521:15693" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="15521:15695" ph="SELECT * FRO... record" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/python3/3.6.3/Frameworks/Python.framework/Versions/3.6/lib/python3.6/socketserver.py" />
+    <entry file="file://$PROJECT_DIR$/templates/search.html" />
+    <entry file="file://$PROJECT_DIR$/templates/coach.html" />
+    <entry file="file://$PROJECT_DIR$/templates/search_coach_result.html" />
+    <entry file="file://$PROJECT_DIR$/templates/index1.html" />
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/jinja2/environment.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="410" column="0" lean-forward="false" selection-start-line="410" selection-start-column="0" selection-end-line="410" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/another.html" />
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/pycharm.jar!/resources/html5-schema/html5/common.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="124" column="18" lean-forward="false" selection-start-line="124" selection-start-column="18" selection-end-line="124" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/templating.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="84" column="0" lean-forward="false" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/404.html" />
+    <entry file="file://$PROJECT_DIR$/templates/playoff.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2142">
+          <caret line="119" column="0" lean-forward="false" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/position.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="28" lean-forward="false" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/preteam.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1872">
+          <caret line="104" column="0" lean-forward="false" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/query_all.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="29" lean-forward="false" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/team_performance.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="36" lean-forward="false" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/update.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2592">
+          <caret line="144" column="0" lean-forward="false" selection-start-line="144" selection-start-column="0" selection-end-line="144" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#select#0;n#div#4;n#form#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#select#0;n#div#5;n#form#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#select#0;n#div#6;n#form#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#select#0;n#div#7;n#form#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#select#0;n#div#8;n#form#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/search_coach.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1314">
+          <caret line="73" column="27" lean-forward="false" selection-start-line="73" selection-start-column="27" selection-end-line="73" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="24" column="32" lean-forward="false" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base_update.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="20" lean-forward="false" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="20" />
+          <folding>
+            <element signature="n#style#0;n#font#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="666">
+          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/player_game_performance.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="107" column="0" lean-forward="false" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/dashboard.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="54" column="7" lean-forward="true" selection-start-line="54" selection-start-column="7" selection-end-line="54" selection-end-column="7" />
+          <folding>
+            <element signature="n#style#0;n#input#0;n#p#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#p#0;n#form#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#p#0;n#form#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding>
+            <element signature="e#268#277#0" expanded="true" />
+            <marker date="1522083587395" expanded="true" signature="1554:1614" ph="CREATE TABLE... IF" />
+            <marker date="1522083587395" expanded="true" signature="1638:1719" ph="INSERT INTO test... " />
+            <marker date="1522083587395" expanded="true" signature="3826:3854" ph="SELECT first... coach" />
+            <marker date="1522083587395" expanded="true" signature="11765:11787" ph="SELECT team_... coach" />
+            <marker date="1522083587395" expanded="true" signature="11765:11791" ph="SELECT team_... team" />
+            <marker date="1522083587395" expanded="true" signature="12420:12545" ph="SELECT * fro... coach" />
+            <marker date="1522083587395" expanded="true" signature="13959:13998" ph="SELECT first... player" />
+            <marker date="1522083587395" expanded="true" signature="13959:14050" ph="SELECT first... player" />
+            <marker date="1522083587395" expanded="true" signature="14737:14751" ph="SELECT game_... game" />
+            <marker date="1522083587395" expanded="true" signature="14737:14770" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="14737:14810" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="14737:14823" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="14737:14834" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="14737:14860" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="14737:14861" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="15521:15626" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="15521:15627" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="15521:15644" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="15521:15645" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="15521:15671" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="15521:15691" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="15521:15693" ph="SELECT * FRO... record" />
+            <marker date="1522083587395" expanded="true" signature="15521:15695" ph="SELECT * FRO... record" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

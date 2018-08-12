@@ -1,0 +1,46 @@
+{% extends "bootstrap/base.html" %}
+{% block title %}Play With Flask{% endblock %}
+{% block navbar %}
+
+<style>
+
+    div.pos_abs_bottom
+{
+position:absolute;
+left:5%;
+bottom:5%
+}
+
+</style>
+
+<div class="navbar navbar-inverse" role="navigation">
+    <div class="container">
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="/dashboard">Dashboard</a></li>
+                <li><a href="/home">Home</a></li>
+                <li><a href="/player_game_performance">Goal</a></li>
+                <li><a href="sort_position">Position</a></li>
+                <li><a href="/search_coach">Coach</a></li>
+                <li><a href="/preteam">Player</a></li>
+                <li><a href="/playoff">Playoff</a></li>
+                <li><a href="/team_performance">Team Performance</a></li>
+                <li><a href="/query_all">Query All</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
+
+
+{% block content %}
+
+
+
+<div class="container">
+    {% block page_content %}
+    {% endblock %}
+
+</div>
+{% endblock %}

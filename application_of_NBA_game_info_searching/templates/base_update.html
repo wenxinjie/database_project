@@ -1,0 +1,35 @@
+{% extends "bootstrap/base.html" %}
+{% block title %}Play With Flask{% endblock %}
+{% block navbar %}
+
+<style>
+
+    div.pos_abs_bottom
+{
+position:absolute;
+left:5%;
+bottom:5%
+}
+
+</style>
+
+<div class="navbar navbar-inverse" role="navigation">
+    <div class="container">
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="/dashboard">Dashboard</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
+
+{% block content %}
+
+<div class="container">
+    {% block page_content %}
+    {% endblock %}
+
+</div>
+{% endblock %}

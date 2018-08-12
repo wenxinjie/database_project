@@ -1,0 +1,120 @@
+
+{% extends "base.html" %}
+{% block title %} - Query All - {% endblock %}
+{% block page_content %}
+
+
+
+<style>
+
+div.pos_abs_bottom
+{
+position:absolute;
+left:75%;
+bottom:5%
+}
+
+div.table
+{
+position:absolute;
+left:10%;
+top:40%
+}
+
+div.pos_abs_search
+{
+position:absolute;
+left:10%;
+top:15%
+}
+
+</style>
+
+<body background="https://wallpapercave.com/wp/P1bm72P.jpg">
+<div class = 'pos_abs_search'>
+
+
+    <form method="GET" action="/home_1" >
+        <font size="3" color = 'white'>Search Table: </font>
+        <select name = "table_name" style="width:150px">
+        {% for p in table_names %}
+        <option value="{{ p }}">{{ p }}</option>
+        {% endfor %}
+        </select>
+        <input type="submit" value="Search" class="btn btn-primary">
+        </form>
+
+
+    <form method="GET" action="/home_2">
+        <font size="3" color="white" > Table : {{ table_holder }} </font>
+        <br>
+
+        <font size="3" color = 'white'>Search Column: </font>
+        <select name ="column" style="width:150px">
+        {% for p in data_1 %}
+        <option value="{{ p }}">{{ p }}</option>
+        {% endfor %}
+        </select>
+        <input type="submit" value="Search" class="btn btn-primary">
+
+        </form>
+
+    <font size="3" color="white"> Column : {{ column_holder }} </font>
+    <br>
+
+
+    <form method="GET" action="/home_result">
+
+        <font size="3" color = 'white'>Search Value : </font>
+        <select name ="row" style="width:150px">
+        {% for p in data_2 %}
+        <option value="{{ p }}">{{ p }}</option>
+        {% endfor %}
+        </select>
+        <input type="submit" value="Search" class="btn btn-primary">
+
+        </form>
+
+    <font size="3" color="white">Value : {{ column_value_holder }} </font>
+    <br>
+
+</div>
+
+
+
+<div class="table">
+    <table border="5">
+
+          <tr>
+               {%  for i in column_name  %}
+              <th width="80"> <font color="white"> {{ i }} </font></th>
+              {%  endfor %}
+          </tr>
+
+
+
+        {% for n in result %}
+            <tr>
+                {%  for j in length%}
+                <td width="80"><font color="white"> {{ n[j] }} </font></td>
+                {% endfor %}
+            </tr>
+         {% endfor %}
+      </table>
+
+
+</div>
+
+
+
+
+
+
+
+
+<div class="pos_abs_bottom">
+    <font size="3" color="orange" style="font-family:verdana">Powered by Xin Wang & Xinjie Wen</font>
+</div>
+
+</body>
+{%  endblock %}

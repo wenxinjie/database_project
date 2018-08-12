@@ -1,0 +1,106 @@
+
+{% extends "base.html" %}
+{% block title %} - Coach - {% endblock %}
+{% block page_content %}
+
+<style>
+
+div.pos_abs_search
+{
+position:absolute;
+left:10%;
+top:15%
+}
+
+div.table
+{
+position:absolute;
+left:10%;
+top:30%
+}
+    div.pos_abs_bottom
+{
+position:absolute;
+left:75%;
+bottom:5%
+}
+
+
+a.pos_abs_href1
+{
+position:absolute;
+left:10%;
+bottom:30%
+}
+a.pos_abs_href2
+{
+position:absolute;
+left:10%;
+bottom:25%
+}
+
+</style>
+
+<body background="https://wallpapercave.com/wp/P1bm72P.jpg">
+
+
+<div class = 'pos_abs_search'>
+
+
+
+    <form method="GET" action="/search_coach_result">
+        <font size="3" color = 'white'>Team Name: </font>
+        <select name ="query" style="width:150px">
+        {% for p in team_names %}
+        <option value="{{ p }}">{{ p }}</option>
+        {% endfor %}
+        </select>
+        <input type="submit" value="Search" class="btn btn-primary">
+        </form>
+
+    <br>
+<font size="3" color="white"> Search Team: {{ Team_name }} </font>
+</div>
+
+
+   <div class="table">
+
+      <table border="5">
+          <tr>
+              <th width="100"> <font color="white"> Coach Id </font></th>
+              <th width="150"> <font color="white"> Coach Name </font></th>
+              <th width="10"> <font color="white"> Age </font></th>
+              <th width="200"> <font color="white"> Team </font></th>
+              <th width="100"> <font color="white"> Since </font></th>
+          </tr>
+
+          {% for n in data %}
+            <tr>
+                <td width="100"><font color="white"> {{ n[0] }} </font></td>
+                <td width="150"><font color="white"> {{ n[1] }} </font></td>
+                <td width="10"><font color="white"> {{ n[2] }} </font></td>
+                <td width="200"><font color="white"> {{ n[3] }} </font></td>
+                <td width="100"><font color="white"> {{ n[4] }} </font></td>
+
+            </tr>
+                     {% endfor %}
+      </table>
+
+    </div>
+</body>
+<div class="pos_abs_bottom">
+    <font size="3" color="orange" style="font-family:verdana">Powered by Xin Wang & Xinjie Wen</font>
+</div>
+
+
+{% endblock %}
+
+
+
+
+
+
+
+
+
+

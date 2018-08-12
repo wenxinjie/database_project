@@ -1,0 +1,148 @@
+
+
+
+{% extends "base_update.html" %}
+{% block title %} - Update - {% endblock %}
+
+{% block page_content %}
+
+
+<style>
+
+    div.pos_abs_bottom
+{
+position:absolute;
+left:5%;
+bottom:5%
+}
+
+p.pos_abs_left
+{
+position:absolute;
+left:5%;
+top:10%
+}
+
+input.pos_abs
+{
+position:absolute;
+left:26%;
+
+}
+
+div.block{
+        width: 400px;
+        display: block;
+        margin:5px 0;
+    }
+
+
+label {
+        display: inline-block;
+        width: 100px;
+        text-align: right;
+}
+
+
+font.msg
+{
+position:absolute;
+left:5%;
+bottom:20%
+
+}
+
+</style>
+
+
+<body background="https://wallpapercave.com/wp/xaevjVf.jpg">
+
+<div  >
+
+    <p class="pos_abs_left"> <font size="7" color="black"> Please Add A New Player </font></p>
+
+    <div style=" position:absolute;left:5%;top:25%">
+
+    <form method="get" action="/add_player">
+
+            <div class="block">
+                <label >Player Id：</label>
+                <input type="text" name="pid" placeholder="team_id + No.">
+                {{ msg }}
+            </div>
+
+            <div class="block">
+                <label >First Name：</label>
+                <input type="text" name="fname">
+            </div>
+             <div class="block">
+                <label >Last Name：</label>
+                <input type="text" name="lname">
+            </div>
+         <div class="block">
+                <label >College：</label>
+                <input type="text" name="college">
+            </div>
+             <div class="block">
+                <label >Height：</label>
+                <select name = "height" style="width:90px">
+               {% for n1 in heights %}
+            <option value="{{ n1 }}">{{ n1 }}</option>
+                {% endfor %}
+            </select>
+
+            </div>
+
+             <div class="block">
+             <label >Position：</label>
+                <select name = "pos" style="width:90px">
+               {% for i in poses %}
+            <option value="{{ i }}">{{ i }}</option>
+                {% endfor %}
+            </select>
+            </div>
+        <div class="block">
+               <label >Team Id：</label>
+                <select name = "team_id" style="width:90px">
+               {% for n in teams_id %}
+            <option value="{{ n }}">{{ n }}</option>
+                {% endfor %}
+            </select>
+            </div>
+
+        <div class="block">
+             <label >Since：</label>
+                <select name = "since" style="width:90px">
+               {% for n2 in years %}
+            <option value="{{ n2 }}">{{ n2 }}</option>
+                {% endfor %}
+            </select>
+            </div>
+
+
+        <div class="block">
+                <label >Age：</label>
+                <select name = "age" style="width:90px">
+               {% for n3 in ages %}
+            <option value="{{ n3 }}">{{ n3 }}</option>
+                {% endfor %}
+            </select>
+            </div>
+
+        <br>
+        <input type="submit" value="Submit" class="pos_abs"/>
+
+    </form>
+
+    </div>
+  </div>
+
+    <font size = '5' color="black" class = 'msg'>{{ msg1 }}</font>
+
+   <div class="pos_abs_bottom">
+    <font size="3" color="orange" style="font-family:verdana">Powered by Xin Wang & Xinjie Wen</font>
+</div>
+
+</body>
+
+{% endblock %}

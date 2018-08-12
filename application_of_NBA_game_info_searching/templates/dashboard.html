@@ -1,0 +1,65 @@
+
+<html>
+<title> - Dashboard - </title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+body,h1 {font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+.bgimg {
+
+    background-image: url('https://wallpapercave.com/wp/lenS67b.jpg');
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+p.pos_abs_left
+{
+position:absolute;
+left:10%;
+top:40%
+}
+
+p.pos_abs_right
+{
+position:absolute;
+right:10%;
+top:40%
+}
+
+p.pos_abs_mid
+{
+position:absolute;
+right:45%;
+top:40%
+}
+
+
+</style>
+<body>
+
+<div class="bgimg w3-display-container w3-text-white">
+
+<form method="get" action="/home">
+    <p class="pos_abs_left"><input  type="submit" value="Query"  style="width:100px;height:50px;background-color:#606060;font-size:20px;font-family:verdana;"></p>
+</form>
+
+<form method="get" action="/update">
+    <p class="pos_abs_mid"><input  type="submit" value="Add"  style="width:100px;height:50px;background-color:#606060;font-size:20px;font-family:verdana;"></p>
+</form>
+
+    <form method="get" action="/">
+    <p class="pos_abs_right"><input  type="submit" value="Log Out"  style="width:100px;height:50px;background-color:#606060;font-size:20px;font-family:verdana;"></p>
+</form>
+
+  </div>
+   <div class="w3-display-bottomright w3-padding-large w3-text-white">
+    <font size="3" color="white" style="font-family:verdana">Powered by Xin Wang & Xinjie Wen</font>
+</div>
+
+</body>
+</html>
+
+
